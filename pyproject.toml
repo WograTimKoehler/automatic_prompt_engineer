@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "automatic-prompt-engineer"
+version = "0.1.0"
+description = ""
+authors = [""]
+readme = "README.md"
+packages = [{include = "automatic_prompt_engineer"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+openai = "^1.13.3"
+fire = "^0.5.0"
+tqdm = "^4.66.2"
+gradio = "^4.19.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
